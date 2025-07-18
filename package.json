@@ -1,0 +1,18 @@
+{
+  "engines": {
+    "node": "14.x"
+  },
+  "name": "eve-market-bot",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bottleneck": "^2.19.5",
+    "discord.js": "^14.16.3",
+    "express": "^4.21.1",
+    "tmi.js": "^1.8.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
